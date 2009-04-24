@@ -6,7 +6,7 @@
    <default revision="cupcake"
            remote="korg" /> 
 
-   <project path="build" name="platform/build"> 
+   <project path="build" name="platform/build"  revision="709b752e3b888331d9d1f172e19a01446fbed69d" > 
      <copyfile src="core/root.mk" dest="Makefile" /> 
    </project> 
 
@@ -14,7 +14,6 @@
            name="kernel/common"
            revision="refs/heads/android-2.6.27" /> 
 
-   <project path="build" name="platform/build" revision="709b752e3b888331d9d1f172e19a01446fbed69d" />
    <project path="bionic" name="platform/bionic" revision="6ed739e1d3b5088bf1cd56f09ba3afba792b969d" /> 
 
    <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="076ef94d61f349f7cf0fe776e60456d8f232cca5" /> 
