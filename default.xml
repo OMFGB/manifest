@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="cupcake"
+  <default revision="cupcake-release"
            remote="korg" />
 
   <project path="build" name="platform/build">
