@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="refs/tags/android-1.6_r1.2"
+  <default revision="refs/tags/android-1.6_r1.3"
            remote="korg" />
 
   <project path="build" name="platform/build">
@@ -144,8 +144,6 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" />
 
   <project path="vendor/sample" name="platform/vendor/sample" />
 </manifest>
