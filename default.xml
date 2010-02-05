@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="refs/tags/android-sdk-tools_r3"
+  <default revision="refs/tags/android-sdk-tools_r4"
            remote="korg" />
 
   <project path="build" name="platform/build">
@@ -26,10 +26,11 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="sdk" name="platform/sdk" />
 
   <project path="prebuilt" name="platform/prebuilt" />
 
