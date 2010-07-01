@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="eclair"
+  <default revision="refs/tags/android-cts-2.1_r3"
            remote="korg" />
 
   <project path="build" name="platform/build">
