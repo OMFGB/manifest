@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="refs/tags/android-sdk-tools_r7"
+  <default revision="refs/tags/android-adt-0.9.8"
            remote="korg" />
 
   <project path="build" name="platform/build">
