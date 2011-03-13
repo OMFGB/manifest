@@ -6,7 +6,11 @@
 
   <remote  name="github"
            fetch="git://github.com/OMGB/" />
-  <default 
+
+   <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" />
+
+ <default 
 	   revision="gingerbread"
 	   remote="korg" />
 
@@ -22,7 +26,6 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device_htc_common" remote="github" revision="master"/>
   <project path="device/htc/inc" name="device_htc_inc" remote="github" revision="master"/>
-  <project path="device/htc/supersonic" name="device_htc_supersonic" remote="github" revision="master"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -135,7 +138,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="_packages_apps_Browser" remote="github" revision="master"/>
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="github" revision="master"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="github" revision="master"/>
@@ -185,8 +188,9 @@
   <project path="system/wlan/ti" name="system_wlan_ti" remote="github" revision="master"/>
   <project path="vendor/htc" name="vendor_htc" remote="github" revision="master"/>
   <project path="vendor/omgb" name="vendor_omgb" remote="github" revision="master"/>
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread"/>
-  <project path="manifest" name="OMGB/manifest" remote="github" revision="master"/>
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="gingerbread"/>
+  <project path="manifest" name="manifest" remote="github" revision="master"/>
 
 </manifest>
 
