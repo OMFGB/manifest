@@ -5,7 +5,7 @@
            review="review.source.android.com" />
 
   <remote  name="github"
-           fetch="git://github.com/OMGB/" \>
+           fetch="git://github.com/OMGB/" />
   <default 
 	   revision="gingerbread"
 	   remote="korg" />
