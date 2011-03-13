@@ -131,7 +131,7 @@
   <project path="hardware/msm7k" name="hardware_msm7k" remote="github" revision="master"/>
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="github" revision="master"/>
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="github" revision="master"/>
-  <project path="hardware/ril" name="hardware_ril" remote="github"/>
+  <project path="hardware/ril" name="hardware_ril" remote="github" revision="master" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="github" revision="master"/>
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="libcore" remote="github" revision="master"/>
