@@ -5,7 +5,7 @@
            review="review.source.android.com" />
 
   <remote  name="github"
-           fetch="git://github.com/OMGB/" />
+           fetch="git://github.com/OMFGB/" />
 
    <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
@@ -189,11 +189,11 @@
   <project path="system/vold" name="system_vold" remote="github" revision="master"/>
   <project path="system/wlan/ti" name="system_wlan_ti" remote="github" revision="master"/>
   <project path="vendor/htc" name="vendor_htc" remote="github" revision="master"/>
-  <project path="vendor/omgb" name="vendor_omgb" remote="github" revision="master"/>
+  <project path="vendor/omfgb" name="vendor_omfgb" remote="github" revision="master"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="gingerbread"/>
+  <project path="packages/apps/God_Mode" name="packages_apps_God_Mode" remote="github" revision="master"/>
   <project path="manifest" name="manifest" remote="github" revision="master"/>
-
 </manifest>
 
   
