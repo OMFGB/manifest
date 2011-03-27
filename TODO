@@ -1,0 +1,12 @@
+Global
+-add 1.1.1 Changelog
+--on/off animation
+--support for new devices
+---Desirec & Mecha
+
+Eris
+-fix up device tree
+-commit device tree
+-mdpi drawables for reboot icon
+
+
