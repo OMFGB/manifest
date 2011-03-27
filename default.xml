@@ -26,6 +26,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device_htc_common" remote="github" revision="master"/>
   <project path="device/htc/inc" name="device_htc_inc" remote="github" revision="master"/>
+  <project path="device/htc/mecha" name="device_htc_mecha" remote="github" revision$
   <project path="device/htc/supersonic" name="device_htc_supersonic" remote="github" revision="master"/>
   <project path="device/htc/desirec" name="device_htc_desirec" remote="github" revision="master"/>
   <project path="device/sample" name="device/sample" />
