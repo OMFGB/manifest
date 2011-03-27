@@ -2,11 +2,15 @@ Global
 -add 1.1.1 Changelog
 --on/off animation
 --support for new devices
----Desirec & Mecha
+---Desirec
+---Mecha
+-landscape launcher bg images less blocky, 90 degree rotation each image
+-HDPI and MDPI bootanimations from steve logic
+-Remove JDK from ProTips
 
 Eris
 -fix up device tree
 -commit device tree
 -mdpi drawables for reboot icon
 -mdpi google apps
-
+-mdpi zombie gingerbread wallpaper
