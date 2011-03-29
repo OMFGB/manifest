@@ -1,12 +1,6 @@
 Global
--add 1.1.1 Changelog
--on/off animation
--support for new devices
---Desirec
---Mecha
--landscape launcher bg images less blocky, left and right hotseats get verticaly flipped
+-Mecha
 -HDPI and MDPI bootanimations from stevelogik
--Ubuntu font may not be set as default
 
 Eris
 -mdpi google apps
