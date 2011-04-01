@@ -1,8 +1,11 @@
 Global
--resize god mode icon
--landscape launcher FC
--compiled on gives raw value instead of date
--1.2.0 changelog FC
--check/uncheck screen number in god mode causes FC
--Homescreen setting isnt woring, and choosing a setting causes FC
--God Mode UI settings causes FC
+-Launcher Screen settings not working. 
+-landscape launcher layouts messed up
+-volume music controls
+-trackpad unlock
+-menu unlock
+-theme engine
+-battery precentage mod
+-6 bar signal mod
+-music widget mod
+
