@@ -7,12 +7,15 @@
   <remote  name="github"
            fetch="git://github.com/OMFGB/" />
 
-   <remote  name="cm"
+  <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
- <default 
+  <remote  name="themes"
+           fetch="git://github.com/tmobile" />
+
+ <default  remote="korg"
 	   revision="gingerbread"
-	   remote="korg" />
+	    />
 
   <project path="build" name="build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -195,6 +198,17 @@
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="gingerbread"/>
   <project path="packages/apps/God_Mode" name="packages_apps_God_Mode" remote="github" revision="master"/>
   <project path="manifest" name="manifest" remote="github" revision="master"/>
+
+
+<project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="master" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="master" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="master" />
+  <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="master" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="master" />
+  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="master" />
+
+
+
 </manifest>
 
   
