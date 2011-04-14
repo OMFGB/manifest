@@ -5,6 +5,7 @@
            review="review.source.android.com" />
 
   <remote  name="github"
+	   fetch="git://github.com/OMFGB/" />
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
