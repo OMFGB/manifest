@@ -149,7 +149,7 @@
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="github" revision="master"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/DeskClock" name="packages/apps/DeskClock" remote ="github" revision="master" />
+  <project path="packages/apps/DeskClock" name="packages/apps/Desk_Clock" remote ="github" revision="master" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="packages_apps_Gallery3D" remote="github" revision="master"/>
