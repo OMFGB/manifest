@@ -95,7 +95,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/openssl" name="external_openssl" remote="origin" revision="updatingtmp"/>
-  <project path="external/openvpn" name="external_openvpn" remote="origin" revision="updatingtmp"/>
+  <project path="external/openvpn" name="external_openvpn" remote="origin" revision="master"/>
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ppp" name="platform/external/ppp" />
