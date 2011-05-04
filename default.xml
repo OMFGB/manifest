@@ -21,34 +21,23 @@
 
   <project path="dalvik" name="dalvik" />
   <project path="external/bluetooth/bluez" name="external/bluetooth/bluez" />
-  <project path="external/busybox" name="external/busybox" />
   <project path="external/clearsilver" name="external/clearsilver" />
   <project path="external/dropbear" name="external/dropbear" />
   <project path="external/e2fsprogs" name="external/e2fsprogs" />
-  <project path="external/flac" name="external/flac" />
   <project path="external/jpeg" name="external/jpeg" />
-  <project path="external/libncurses" name="external/libncurses" />
   <project path="external/libpng" name="external/libpng" />
-  <project path="external/lzo" name="external/lzo" />
-  <project path="external/lsof" name="external/lsof" />
   <project path="external/mtpd" name="external/mtpd" />
-  <project path="external/nano" name="external/nano" />
   <project path="external/openssl" name="external/openssl" />
-  <project path="external/openvpn" name="external/openvpn" />
-  <project path="external/rsync" name="external/rsync" />
   <project path="external/skia" name="external/skia" />
   <project path="external/strace" name="external/strace" />
   <project path="external/v8" name="external/v8"  />
-  <project path="external/vim" name="external/vim" />
   <project path="external/webkit" name="external/webkit" />
-  <project path="external/wireless-tools" name="external/wireless-tools" />
   <project path="external/wpa_supplicant" name="external/wpa_supplicant"  />
   <project path="external/wpa_supplicant_6" name="external/wpa_supplicant_6"  />
   <project path="external/yaffs2" name="external/yaffs2" />
   <project path="frameworks/base" name="frameworks/base" />
-  <project path="hardware/gpsshim" name="hardware/gpsshim" />
   <project path="hardware/libhardware" name="hardware/libhardware" />
-  <project path="hardware/libhardware/legacy" name="hardware/libhardware/legacy" />
+  <project path="hardware/libhardware_legacy" name="hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="hardware/msm7k" />
   <project path="hardware/qcom/gps" name="hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="hardware/qcom/media" />
@@ -57,7 +46,7 @@
   <project path="libcore" name="libcore" />
   <project path="packages/apps/Browser" name="packages/apps/Browser" />
   <project path="packages/apps/Camera" name="packages/apps/Camera" />
-  <project path="packages/apps/DeskClock" name="packages/apps/Desk/Clock" />
+  <project path="packages/apps/DeskClock" name="packages/apps/DeskClock" />
   <project path="packages/apps/Gallery3D" name="packages/apps/Gallery3D" />
   <project path="packages/apps/Launcher2" name="packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="packages/apps/Mms" />
@@ -73,9 +62,6 @@
   <project path="system/netd" name="system/netd" />
   <project path="system/vold" name="system/vold" />
   <project path="system/wlan/ti" name="system/wlan/ti" />
-  <project path="vendor/htc" name="vendor/htc" />
-  <project path="vendor/omfgb" name="vendor/omfgb" />
-  <project path="packages/apps/God/Mode" name="packages/apps/God/Mode" />
   <project path="manifest" name="manifest" />
 
 
