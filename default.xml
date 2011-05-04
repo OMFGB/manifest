@@ -163,7 +163,7 @@
   <project path="packages/apps/Protips" name="packages_apps_Protips" remote="origin" revision="updatingtmp"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="origin" revision="updatingtmp"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="origin" revision="gingerbread"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
