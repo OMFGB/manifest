@@ -20,10 +20,6 @@
   </project>
 
   <project path="dalvik" name="dalvik" />
-  <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/inc" name="device/htc/inc" />
-  <project path="device/htc/supersonic" name="device/htc/supersonic" />
-  <project path="device/htc/desirec" name="device/htc/desirec" />
   <project path="external/bash" name="external/bash" />
   <project path="external/bluetooth/bluez" name="external/bluetooth/bluez" />
   <project path="external/busybox" name="external/busybox" />
