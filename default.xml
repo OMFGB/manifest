@@ -20,7 +20,6 @@
   </project>
 
   <project path="dalvik" name="dalvik" />
-  <project path="external/bash" name="external/bash" />
   <project path="external/bluetooth/bluez" name="external/bluetooth/bluez" />
   <project path="external/busybox" name="external/busybox" />
   <project path="external/clearsilver" name="external/clearsilver" />
