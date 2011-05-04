@@ -7,11 +7,7 @@
   <remote  name="github"
 	   fetch="git://github.com/OMFGB/" />
 
-  <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/" />
 
-  <remote  name="themes"
-           fetch="git://github.com/tmobile" />
 
  <default  remote="korg"
 	   revision="gingerbread"
