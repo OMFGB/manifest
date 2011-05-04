@@ -26,14 +26,12 @@
   <project path="device/htc/desirec" name="device_htc_desirec" remote="Admin" revision="master"/>
   <project path="external/bash" name="external_bash" remote="Admin" revision="master"/>
   <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="Admin" revision="master"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/busybox" name="external_busybox" remote="Admin" revision="master"/>
   <project path="external/clearsilver" name="external_clearsilver" remote="Admin" revision="master"/>
   <project path="external/dropbear" name="external_dropbear" remote="Admin" revision="master"/>
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="Admin" revision="master"/>
   <project path="external/flac" name="external_flac" remote="Admin" revision="master"/>
   <project path="external/jpeg" name="external_jpeg" remote="Admin" revision="master"/>
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libncurses" name="external_libncurses" remote="Admin" revision="master"/>
   <project path="external/libpng" name="external_libpng" remote="Admin" revision="master"/>
   <project path="external/lzo" name="external_lzo" remote="Admin" revision="master"/>
@@ -42,7 +40,6 @@
   <project path="external/nano" name="external_nano" remote="Admin" revision="master"/>
   <project path="external/openssl" name="external_openssl" remote="Admin" revision="master"/>
   <project path="external/openvpn" name="external_openvpn" remote="Admin" revision="master"/>
-  <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
   <project path="external/rsync" name="external_rsync" remote="Admin" revision="master"/>
   <project path="external/skia" name="external_skia" remote="Admin" revision="master"/>
   <project path="external/strace" name="external_strace" remote="Admin" revision="master"/>
@@ -76,8 +73,6 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="Admin" revision="master"/>
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="Admin" revision="master"/>
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="Admin" revision="master"/>
-  <project path="sdk" name="platform/sdk" revision="tools_r7" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="system_core" remote="Admin" revision="master"/>
   <project path="system/extras" name="system_extras" remote="Admin" revision="master"/>
   <project path="system/netd" name="system_netd" remote="Admin" revision="master"/>
