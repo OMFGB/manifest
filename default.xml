@@ -14,14 +14,14 @@
            fetch="git://github.com/tmobile" />
 
  <default  remote="korg"
-	   revision="android-2.3.4_r1"
+	   revision="gingerbread"
 	    />
 
   <project path="build" name="build" remote="origin" revision="updatingtmp">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="origin" revision="tmpmaster"/>
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="gingerbread" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="origin" revision="updtingtmp"/>
   <project path="dalvik" name="dalvik" remote="origin" revision="updtingtmp"/>
