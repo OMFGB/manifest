@@ -47,8 +47,8 @@
   <project path="external/vim" name="external/vim" />
   <project path="external/webkit" name="external/webkit" />
   <project path="external/wireless-tools" name="external/wireless-tools" />
-  <project path="external/wpa_supplicant" name="external/wpa/supplicant"  />
-  <project path="external/wpa_supplicant_6" name="external/wpa/supplicant/6"  />
+  <project path="external/wpa_supplicant" name="external/wpa_supplicant"  />
+  <project path="external/wpa_supplicant_6" name="external/wpa_supplicant_6"  />
   <project path="external/yaffs2" name="external/yaffs2" />
   <project path="frameworks/base" name="frameworks/base" />
   <project path="hardware/gpsshim" name="hardware/gpsshim" />
@@ -62,7 +62,7 @@
   <project path="libcore" name="libcore" />
   <project path="packages/apps/Browser" name="packages/apps/Browser" />
   <project path="packages/apps/Camera" name="packages/apps/Camera" />
-  <project path="packages/apps/DeskClock" name="packages/apps/Desk/Clock" remote ="github" revision="master" />
+  <project path="packages/apps/DeskClock" name="packages/apps/Desk/Clock" />
   <project path="packages/apps/Gallery3D" name="packages/apps/Gallery3D" />
   <project path="packages/apps/Launcher2" name="packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="packages/apps/Mms" />
