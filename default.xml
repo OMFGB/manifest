@@ -4,7 +4,7 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
 
-  <remote  name="admin"
+  <remote  name="Admin"
 	   fetch="git@github.com:OMFGB/" />
 
 
