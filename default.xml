@@ -7,6 +7,8 @@
   <remote  name="Admin"
 	   fetch="git@github.com:OMFGB/" />
 
+ <remote  name="github"
+	   fetch="git://github.com/OMFGB/" />
 
 
  <default  remote="korg"
