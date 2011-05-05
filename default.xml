@@ -14,7 +14,7 @@
            fetch="git://github.com/tmobile" />
 
  <default  remote="korg"
-	   revision="gingerbread"
+	   revision="gingerbread-release"
 	    />
 
   <project path="build" name="build" remote="origin" revision="updatingtmp">
@@ -139,7 +139,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="origin" revision="updatingtmp" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="origin" revision="updatingtmp"/>
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="libcore" name="libcore" remote="origin" revision="updatingtmp"/>
+  <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
