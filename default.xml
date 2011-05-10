@@ -20,7 +20,7 @@
   <project path="build" name="build" remote="origin" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="bionic2" remote="origin" revision="master"/>
+  <project path="bionic" name="bionic" remote="origin" revision="master"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="origin" revision="tmpmaster"/>
@@ -131,11 +131,11 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/gpsshim" name="hardware_gpsshim" remote="origin" revision="master"/>
-  <project path="hardware/libhardware" name="hardware_libhardware2" remote="origin" revision="master"/>
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="origin" revision="master"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="origin" revision="updatingtmp"/>
-  <project path="hardware/msm7k" name="hardware_msm7k2" remote="origin" revision="master"/>
+  <project path="hardware/msm7k" name="hardware_msm7k" remote="origin" revision="master"/>
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="origin" revision="updatingtmp"/>
-  <project path="hardware/qcom/media" name="hardware_qcom_media2" remote="origin" revision="master"/>
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="origin" revision="master"/>
   <project path="hardware/ril" name="hardware_ril" remote="origin" revision="updatingtmp" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="origin" revision="updatingtmp"/>
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
