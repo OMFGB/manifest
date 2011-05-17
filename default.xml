@@ -117,7 +117,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="external_v8" remote="github" revision="gingerbread"  />
   <project path="external/vim" name="external_vim" remote="github" revision="master"/>
-  <project path="external/webkit" name="external_webkit" remote="github" revision="master"/>
+  <project path="external/webkit" name="external_webkit" remote="github" revision="gingerbread"/>
   <project path="external/wireless-tools" name="external_wireless-tools" remote="github" revision="master"/>
   <project path="external/wpa_supplicant" name="external_wpa_supplicant" remote="github" revision="master" />
   <project path="external/wpa_supplicant_6" name="external_wpa_supplicant_6" remote="github" revision="master" />
