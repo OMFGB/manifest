@@ -45,7 +45,7 @@
   <project path="external/busybox" name="external_busybox" remote="origin" revision="master"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="external_clearsilver" remote="origin" revision="updatingtmp"/>
+  <project path="external/clearsilver" name="external_clearsilver" remote="origin" revision="master"/>
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -117,9 +117,9 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="external_v8" remote="origin" revision="roberj13" />
+  <project path="external/v8" name="external_v8" remote="origin" revision="master" />
   <project path="external/vim" name="external_vim" remote="origin" revision="master"/>
-  <project path="external/webkit" name="external_webkit" remote="origin" revision="roberj13"/>
+  <project path="external/webkit" name="external_webkit" remote="origin" revision="master"/>
   <project path="external/wireless-tools" name="external_wireless-tools" remote="origin" revision="master"/>
   <project path="external/wpa_supplicant" name="external_wpa_supplicant" remote="origin" revision="updatingtmp" />
   <project path="external/wpa_supplicant_6" name="external_wpa_supplicant_6" remote="origin" revision="updatingtmp" />
