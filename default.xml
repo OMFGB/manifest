@@ -197,6 +197,7 @@
   <project path="system/vold" name="system_vold" remote="origin" revision="master"/>
   <project path="system/wlan/ti" name="system_wlan_ti" remote="origin" revision="master"/>
   <project path="vendor/htc" name="vendor_htc" remote="origin" revision="master"/>
+  <project path="vendor/motorola" name="vendor_motorola" remote="origin" revision="master"/>
   <project path="vendor/omfgb" name="vendor_omfgb" remote="origin" revision="master"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="gingerbread"/>
