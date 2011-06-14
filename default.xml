@@ -122,6 +122,7 @@
   <project path="external/webkit" name="android_external_webkit" remote="cm" revision="gingerbread"/>
   <project path="external/wireless-tools" name="external_wireless-tools" remote="origin" revision="master"/>
   <project path="external/wpa_supplicant" name="external_wpa_supplicant" remote="origin" revision="master" />
+  <project path="external/wpa_supplicant_6" name="external_wpa_supplicant_6" remote="origin" revision="master" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="external_yaffs2" remote="origin" revision="master"/>
   <project path="external/zlib" name="platform/external/zlib" />
