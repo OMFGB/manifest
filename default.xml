@@ -13,6 +13,9 @@
   <remote  name="origin"
 	   fetch="git://github.com/OMFGB/" />
 
+  <remote  name="themes"
+           fetch="git://github.com/tmobile" />
+
  <default 
 	   revision="gingerbread"
 	   remote="korg" />
