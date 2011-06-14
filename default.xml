@@ -17,7 +17,7 @@
            fetch="git://github.com/tmobile" />
 
  <default 
-	   revision="gingerbread"
+	   revision="gingerbread-release"
 	   remote="korg" />
 
   <project path="build" name="build" remote="github" revision="master">
