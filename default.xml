@@ -151,6 +151,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Addons" name="packages_apps_Addons" remote="origin" revision="master"/>
+  <project path="packages/apps/AicBootFix" name="packages_apps_AicBootFix" remote="xoomdev" revision="master"/>
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="origin" revision="master"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
