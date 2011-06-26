@@ -13,6 +13,9 @@
   <remote  name="themes"
            fetch="git://github.com/tmobile" />
 
+  <remote  name="xoomdev"
+	   fetch="git://github.com/xoomdev" />
+
  <default  remote="korg"
 	   revision="gingerbread-release"
 	    />
@@ -20,7 +23,7 @@
   <project path="build" name="build" remote="origin" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="bionic" remote="origin" revision="master"/>
+  <project path="bionic" name="bionic" remote="xoomdev" revision="master"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="origin" revision="master"/>
@@ -29,7 +32,8 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device_htc_common" remote="origin" revision="master"/>
   <project path="device/htc/inc" name="device_htc_inc" remote="origin" revision="master"/>
-  <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
+  <project path="device/htc/mecha" name="device_htc_mecha" remote="xoomdev" revision="master"/>
+  <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="xoomdev" revision="master" />
   <project path="device/motorola/sholes" name="device_motorola_sholes" remote="origin" revision="master"/>
   <project path="device/htc/supersonic" name="device_htc_supersonic" remote="origin" revision="master"/>
   <project path="device/htc/desirec" name="device_htc_desirec" remote="origin" revision="master"/>
@@ -49,6 +53,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="external_clearsilver" remote="origin" revision="master"/>
+  <project path="external/connectivity" name="external_connectivity" remote="xoomdev" revision="master" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -165,12 +170,12 @@
   <project path="packages/apps/Music" name="packages_apps_Music" remote="origin" revision="master" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="xoomdev" revision="master" />
   <project path="packages/apps/Protips" name="packages_apps_Protips" remote="origin" revision="master"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="origin" revision="master"/>
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xoomdev" revision="master"/>
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="xoomdev" revision="master" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/apps/Wallpapers" name="packages_apps_Wallpapers" remote="origin" revision="master"/>
@@ -183,7 +188,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="origin" revision="master"/>
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="xoomdev" revision="master" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
@@ -192,10 +197,10 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="system_core" remote="origin" revision="master"/>
+  <project path="system/core" name="system_core" remote="xoomdev" revision="master"/>
   <project path="system/extras" name="system_extras" remote="origin" revision="master"/>
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="system_netd" remote="origin" revision="master"/>
+  <project path="system/netd" name="system_netd" remote="xoomdev" revision="master"/>
   <project path="system/vold" name="system_vold" remote="origin" revision="master"/>
   <project path="system/wlan/ti" name="system_wlan_ti" remote="origin" revision="master"/>
   <project path="vendor/htc" name="vendor_htc" remote="origin" revision="master"/>
