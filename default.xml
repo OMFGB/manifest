@@ -31,6 +31,7 @@
   <project path="device/htc/inc" name="device_htc_inc" remote="origin" revision="master"/>
   <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
   <project path="device/motorola/sholes" name="device_motorola_sholes" remote="origin" revision="master"/>
+  <project path="device/msm7x30-common" name="device_msm7x30-common" remote="origin" revision="master"/>
   <project path="device/htc/supersonic" name="device_htc_supersonic" remote="origin" revision="master"/>
   <project path="device/htc/desirec" name="device_htc_desirec" remote="origin" revision="master"/>
   <project path="device/htc/heroc" name="device_htc_heroc" remote="origin" revision="master"/>
@@ -49,6 +50,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="external_clearsilver" remote="origin" revision="master"/>
+  <project path="external/connectivity" name="external_connectivity" remote="origin" revision="master"/>
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -146,6 +148,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Addons" name="packages_apps_Addons" remote="origin" revision="master"/>
+  <project path="packages/apps/AicBootFix" name="packages_apps_AicBootFix" remote="origin" revision="master"/>
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="origin" revision="master"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
@@ -184,7 +187,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="origin" revision="master"/>
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="origin" revision="master" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
