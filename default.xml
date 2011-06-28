@@ -111,7 +111,7 @@
   <project path="external/skia" name="external_skia" remote="origin" revision="master"/>
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/sqlite" name="external_sqlite" remote="origin" revision="master" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="external_strace" remote="origin" revision="master"/>
@@ -155,6 +155,7 @@
   <project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="cm" revision="gingerbread"/>
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="origin" revision="gingerbread" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/FM" name="packages_apps_FM" remote="origin" revision="gingerbread"/>
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
