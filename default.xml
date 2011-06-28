@@ -53,7 +53,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="external_clearsilver" remote="origin" revision="master"/>
-  <project path="external/connectivity" name="external_connectivity" remote="xoomdev" revision="master" />
+  <project path="external/connectivity" name="external_connectivity" remote="origin" revision="master" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -177,7 +177,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xoomdev" revision="master"/>
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="xoomdev" revision="master" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="origin" revision="master" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/apps/Wallpapers" name="packages_apps_Wallpapers" remote="origin" revision="master"/>
