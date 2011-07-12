@@ -36,6 +36,7 @@
   <project path="device/htc/desirec" name="device_htc_desirec" remote="origin" revision="master"/>
   <project path="device/htc/heroc" name="device_htc_heroc" remote="origin" revision="master"/>
   <project path="device/samsung/fascinatemtd" name="device_samsung_fascinatemtd" remote="origin" revision="master"/>
+  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="origin" revision="gingerbread"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
