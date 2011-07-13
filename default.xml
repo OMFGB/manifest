@@ -7,6 +7,9 @@
   <remote  name="origin"
 	   fetch="git://github.com/OMFGB/" />
 
+  <remote  name="gh"
+           fetch="git@github.com:OMFGB/" />
+
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
