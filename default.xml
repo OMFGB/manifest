@@ -35,6 +35,7 @@
   <project path="device/htc/supersonic" name="device_htc_supersonic" remote="origin" revision="master"/>
   <project path="device/htc/desirec" name="device_htc_desirec" remote="origin" revision="master"/>
   <project path="device/htc/heroc" name="device_htc_heroc" remote="origin" revision="master"/>
+  <project path="device/htc/vivow" name="device_htc_vivow" remote="origin" revision="master"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
