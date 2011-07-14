@@ -20,7 +20,7 @@
   <project path="build" name="build" remote="origin" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="bionic" remote="origin" revision="mecha"/>
+  <project path="bionic" name="bionic" remote="origin" revision="master"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="origin" revision="master"/>
