@@ -33,7 +33,7 @@
   <project path="device/htc/common" name="device_htc_common" remote="origin" revision="master"/>
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="origin" revision="gingerbread"/>
   <project path="device/htc/inc" name="device_htc_inc" remote="origin" revision="master"/>
-  <project path="device/htc/vivow" name="device_htc_vivow" remote="origin" revision="gingerbread"/>
+  <project path="device/htc/vivow" name="device_htc_vivow" remote="origin" revision="master"/>
   <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
   <project path="device/htc/supersonic" name="device_htc_supersonic" remote="origin" revision="master"/>
   <project path="device/htc/desirec" name="device_htc_desirec" remote="origin" revision="master"/>
