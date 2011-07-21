@@ -20,7 +20,7 @@
 	   revision="gingerbread-release"
 	   remote="korg" />
 
-  <project path="build" name="build" remote="github" revision="newomgb">
+  <project path="build" name="build" remote="github" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="origin" revision="master"/>
