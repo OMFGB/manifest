@@ -38,6 +38,7 @@
   <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
   <project path="device/htc/supersonic" name="device_htc_supersonic" remote="origin" revision="master"/>
   <project path="device/htc/desirec" name="device_htc_desirec" remote="origin" revision="master"/>
+  <project path="device/motorola/shadow" name="device_motorola_shadow" remote="origin" revision="gingerbread"/>
   <project path="device/motorola/sholes" name="device_motorola_sholes" remote="origin" revision="master"/>
   <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="origin" revision="gingerbread"/>
   <project path="device/samsung/fascinatemtd" name="device_samsung_fascinatemtd" remote="origin" revision="master"/>
