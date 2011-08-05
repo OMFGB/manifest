@@ -43,7 +43,7 @@
   <project path="device/samsung/fascinatemtd" name="device_samsung_fascinatemtd" remote="origin" revision="master"/>
   <project path="device/samsung/mesmerizemtd" name="device_samsung_mesmerizemtd" remote="origin" revision="gingerbread"/>
   <project path="device/samsung/showcasemtd" name="device_samsung_showcasemtd" remote="origin" revision="gingerbread"/>
-  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="origin" revision="master"/>
+  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="origin" revision="gingerbread"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -216,7 +216,7 @@
   <project path="vendor/motorola" name="vendor_motorola" remote="origin" revision="master"/>
   <project path="vendor/motorola/shadow" name="vendor_motorola_shadow" remote="origin" revision="master"/>
   <project path="vendor/omfgb" name="vendor_omfgb" remote="origin" revision="master"/>
-  <project path="vendor/samsung" name="vendor_samsung" remote="origin" revision="gingerbread"/>
+  <project path="vendor/samsung" name="vendor_samsung" remote="origin" revision="master"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="gingerbread"/>
   <project path="packages/apps/God_Mode" name="packages_apps_God_Mode" remote="origin" revision="master"/>
