@@ -41,8 +41,8 @@
   <project path="device/htc/heroc" name="device_htc_heroc" remote="origin" revision="master"/>
   <project path="device/htc/vivow" name="device_htc_vivow" remote="origin" revision="master"/>
   <project path="device/samsung/fascinatemtd" name="device_samsung_fascinatemtd" remote="origin" revision="master"/>
-  <project path="device/samsung/mesmerizemtd" name="device_samsung_mesmerizemtd" remote="origin" revision="gingerbread"/>
-  <project path="device/samsung/showcasemtd" name="device_samsung_showcasemtd" remote="origin" revision="gingerbread"/>
+  <project path="device/samsung/mesmerizemtd" name="device_samsung_mesmerizemtd" remote="origin" revision="master"/>
+  <project path="device/samsung/showcasemtd" name="device_samsung_showcasemtd" remote="origin" revision="master"/>
   <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="origin" revision="gingerbread"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
