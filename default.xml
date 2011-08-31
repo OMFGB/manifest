@@ -217,8 +217,8 @@
 <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="gingerbread" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="master" />
   <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="master" />
-  <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="cm" revision="gingerbread" />
-  <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="cm" revision="gingerbread" />
+  <project path="vendor/tmobile/themes/Androidian" name="android_vendor_tmobile_themes_Androidian" remote="cm" revision="gingerbread" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="android_vendor_tmobile_themes_Cyanbread" remote="cm" revision="gingerbread" />
   <project path="vendor/omfgb/themes/OMFT" name="Oh-My-Fucking-Theme" remote="origin" revision="master" />
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="master" />
 
