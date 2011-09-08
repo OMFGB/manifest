@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="git://github.com/android"
-           review="review.source.android.com" />
-           
-  <remote  name="korg_otig"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
 		
@@ -28,12 +24,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="origin" revision="master"/>
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable_bootloader_legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable_diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="origin" revision="master"/>
   <project path="dalvik" name="dalvik" remote="origin" revision="master"/>
   <project path="development" name="platform/development" />
-  <project path="device/common" name="device/common" />
+  <project path="device_common" name="device/common" />
   <project path="device/htc/common" name="device_htc_common" remote="origin" revision="master"/>
   <project path="device/htc/inc" name="device_htc_inc" remote="origin" revision="master"/>
   <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
