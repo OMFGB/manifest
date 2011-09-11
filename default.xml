@@ -112,7 +112,7 @@
   <project path="external/nano" name="external_nano" remote="origin" revision="master"/>
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
-  <project path="external/neven" name="platform/external/neven" />
+  <project path="external/neven" name="platform/external/neven" revison="aosp/gingerbread"/>
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/openssl" name="external_openssl" remote="origin" revision="master"/>
@@ -214,7 +214,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="system_core" remote="origin" revision="master"/>
   <project path="system/extras" name="system_extras" remote="origin" revision="master"/>
-  <project path="system/media" name="platform/system/media" />
+  <project path="system/media" name="android_system_media" remote="cm" revision="gingerbread" />
   <project path="system/netd" name="system_netd" remote="origin" revision="master"/>
   <project path="system/vold" name="system_vold" remote="origin" revision="master"/>
   <project path="system/wlan/ti" name="system_wlan_ti" remote="origin" revision="master"/>
