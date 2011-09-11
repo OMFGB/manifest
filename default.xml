@@ -3,6 +3,9 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
+ 
+  <remote  name="temp"
+	   fetch="git://codeaurora.org/" />
 		
   <remote  name="origin"
 	   fetch="git@github.com:OMFGB/" />
@@ -16,8 +19,8 @@
   <remote  name="themes"
            fetch="git://github.com/tmobile" />
 
- <default  remote="korg"
-	   revision="gingerbread-release"
+ <default  remote="temp"
+	   revision="gingerbread"
 	    />
 
   <project path="build" name="build" remote="origin" revision="master">
