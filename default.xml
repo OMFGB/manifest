@@ -19,7 +19,7 @@
   <remote  name="themes"
            fetch="git://github.com/tmobile" />
 
- <default  remote="temp"
+  <default  remote="korg"
 	   revision="gingerbread"
 	    />
 
