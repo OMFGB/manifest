@@ -121,7 +121,7 @@
   <project path="external/sonivox" name="platform_external_sonivox" />
   <project path="external/speex" name="platform/external/speex" remote="caf" revision="aosp/gingerbread" />
   <project path="external/sqlite" name="external_sqlite" remote="origin" revision="master" />
-  <project path="external/srec" name="platform_external_srec" />
+  <project path="external/srec" name="platform/external/srec" remote="caf" revision="aosp/gingerbread" />
   <project path="external/stlport" name="platform/external/stlport" remote="caf" revision="gingerbread" />
   <project path="external/strace" name="external_strace" remote="origin" revision="master"/>
   <project path="external/svox" name="platform/external/svox" remote="caf" revision="aosp/gingerbread" />
