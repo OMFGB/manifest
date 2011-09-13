@@ -59,7 +59,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="caf" revision="aosp/gingerbread" />
   <project path="external/dropbear" name="external_dropbear" remote="origin" revision="master"/>
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="origin" revision="master"/>
-  <project path="external/easymock" name="platform/external/easymock" remote="aurora" revision="aosp/gingerbread" />
+  <project path="external/easymock" name="platform/external/easymock" remote="caf" revision="aosp/gingerbread" />
   <project path="external/elfcopy" name="platform_external_elfcopy" />
   <project path="external/elfutils" name="platform_external_elfutils" />
   <project path="external/embunit" name="platform/external/embunit" remote="caf" revision="aosp/gingerbread" />
