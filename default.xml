@@ -109,7 +109,7 @@
   <project path="external/ping" name="platform_external_ping" />
   <project path="external/ppp" name="platform_external_ppp" />
   <project path="external/proguard" name="platform/external/proguard" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/protobuf" name="platform_external_protobuf" />
   <project path="external/qemu" name="platform_external_qemu" remote="cm" revision="tools_r7" />
   <project path="external/rsync" name="external_rsync" remote="origin" revision="master"/>
   <project path="external/quake" name="platform/external/quake" remote="caf" revision="aosp/gingerbread" />
