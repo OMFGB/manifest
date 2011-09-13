@@ -38,7 +38,7 @@
   <project path="device/htc/desirec" name="device_htc_desirec" remote="origin" revision="master"/>
   <project path="device/htc/heroc" name="device_htc_heroc" remote="origin" revision="master"/>
   <project path="device/htc/vivow" name="device_htc_vivow" remote="origin" revision="master"/>
-  <project path="device/sample" name="device/sample" />
+  <project path="device/sample" name="device/sample" remote="caf" revision="aosp/gingerbread" />
   <project path="external/apache-http" name="platform_external_apache-http" />
   <project path="external/astl" name="platform/external/astl" remote="caf" revision="aosp/gingerbread" />
   <project path="external/bash" name="external_bash" remote="origin" revision="master"/>
