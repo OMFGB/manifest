@@ -85,7 +85,7 @@
   <project path="external/jpeg" name="external_jpeg" remote="origin" revision="master"/>
   <project path="external/jsr305" name="platform/external/jsr305" remote="caf" revision="aosp/gingerbread" />
   <project path="external/junit" name="platform/external/junit" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers"remote="caf" revision="aosp/gingerbread" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="caf" revision="aosp/gingerbread" />
   <project path="external/libffi" name="platform_external_libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" remote="caf" revision="aosp/gingerbread" />
   <project path="external/libncurses" name="external_libncurses" remote="origin" revision="master"/>
