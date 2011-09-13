@@ -199,7 +199,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" remote="caf" revision="aosp/gingerbread" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="caf" revision="aosp/gingerbread" />
   <project path="prebuilt" name="platform/prebuilt" remote="caf" revision="aosp/gingerbread" />
-  <project path="sdk" name="platform/sdk" remote="caf" revision="tools_r7" />
+  <project path="sdk" name="platform/sdk" remote="caf" revision="aosp/tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" remote="caf" revision="aosp/gingerbread" />
   <project path="system/core" name="system_core" remote="origin" revision="mecha"/>
   <project path="system/extras" name="system_extras" remote="origin" revision="master"/>
