@@ -146,7 +146,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="caf" revision="aosp/gingerbread" />
   <project path="external/yaffs2" name="external_yaffs2" remote="origin" revision="master"/>
   <project path="external/zlib" name="platform_external_zlib" />
-  <project path="frameworks/base" name="frameworks_base" remote="origin" revision="ma"/>
+  <project path="frameworks/base" name="frameworks_base" remote="origin" revision="master"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="caf" revision="aosp/gingerbread" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="caf" revision="aosp/gingerbread" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="caf" revision="aosp/gingerbread" />
