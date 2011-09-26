@@ -146,7 +146,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="caf" revision="aosp/gingerbread" />
   <project path="external/yaffs2" name="external_yaffs2" remote="origin" revision="master"/>
   <project path="external/zlib" name="platform_external_zlib" />
-  <project path="frameworks/base" name="frameworks_base" remote="origin" revision="mecha"/>
+  <project path="frameworks/base" name="frameworks_base" remote="origin" revision="ma"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="caf" revision="aosp/gingerbread" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="caf" revision="aosp/gingerbread" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="caf" revision="aosp/gingerbread" />
@@ -185,12 +185,12 @@
   <project path="packages/apps/Music" name="packages_apps_Music" remote="origin" revision="master" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="caf" revision="gingerbread" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="origin" revision="mecha" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="origin" revision="master" />
   <project path="packages/apps/Protips" name="packages_apps_Protips" remote="origin" revision="master"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="caf" revision="aosp/gingerbread" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="origin" revision="mecha"/>
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="origin" revision="mecha" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="origin" revision="master"/>
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="origin" revision="master" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="caf" revision="gingerbread" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="caf" revision="aosp/gingerbread" />
   <project path="packages/apps/Wallpapers" name="packages_apps_Wallpapers" remote="origin" revision="master"/>
@@ -203,7 +203,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="caf" revision="aosp/gingerbread"/>
   <project path="packages/providers/GoogleContactsProvider" name="platform_packages_providers_googlecontactsprovider" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="origin" revision="master"/>
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="origin" revision="mecha" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="origin" revision="master" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="caf" revision="aosp/gingerbread" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="caf" revision="aosp/gingerbread" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="caf" revision="aosp/gingerbread" />
@@ -212,10 +212,10 @@
   <project path="prebuilt" name="platform/prebuilt" remote="caf" revision="aosp/gingerbread" />
   <project path="sdk" name="platform/sdk" remote="caf" revision="aosp/tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" remote="caf" revision="aosp/gingerbread" />
-  <project path="system/core" name="system_core" remote="origin" revision="mecha"/>
+  <project path="system/core" name="system_core" remote="origin" revision="master"/>
   <project path="system/extras" name="system_extras" remote="origin" revision="master"/>
   <project path="system/media" name="android_system_media" remote="super" revision="gingerbread" />
-  <project path="system/netd" name="system_netd" remote="origin" revision="mecha"/>
+  <project path="system/netd" name="system_netd" remote="origin" revision="master"/>
   <project path="system/vold" name="system_vold" remote="origin" revision="master"/>
   <project path="system/wlan/ti" name="system_wlan_ti" remote="origin" revision="master"/>
   <project path="vendor/htc" name="vendor_htc" remote="origin" revision="master"/>
@@ -224,7 +224,7 @@
   <project path="vendor/omfgb" name="vendor_omfgb" remote="origin" revision="master"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="gingerbread"/>
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="gingerbread"/>
-  <project path="packages/apps/God_Mode" name="packages_apps_God_Mode" remote="origin" revision="mecha"/>
+  <project path="packages/apps/God_Mode" name="packages_apps_God_Mode" remote="origin" revision="master"/>
   <project path="manifest" name="manifest" remote="origin" revision="master"/>
 
 
