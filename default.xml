@@ -30,6 +30,7 @@
   <project path="dalvik" name="dalvik" remote="origin" revision="master"/>
   <project path="development" name="platform/development" />
   <project path="device_common" name="device/common" />
+  <project path="device/htc/ace" name="device_htc_ace" remote="origin" revision="gingerbread"/>
   <project path="device/htc/common" name="device_htc_common" remote="origin" revision="master"/>
   <project path="device/htc/inc" name="device_htc_inc" remote="origin" revision="master"/>
   <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
