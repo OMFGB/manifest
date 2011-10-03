@@ -100,7 +100,7 @@
   <project path="external/libffi" name="platform_external_libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" remote="caf" revision="gingerbread" />
   <project path="external/libncurses" name="external_libncurses" remote="origin" revision="master"/>
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="caf" revision="gingerbread" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="origin" revision="master" />
   <project path="external/libpcap" name="platform_external_libpcap" />
   <project path="external/libpng" name="external_libpng" remote="origin" revision="master"/>
   <project path="external/libvpx" name="platform/external/libvpx" remote="caf" revision="gingerbread" />
@@ -183,7 +183,7 @@
   <project path="packages/apps/OMFGB-Launcher" name="OMFGB-Launcher" revision="origin" revision="master"/>
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="origin" revision="master"/>
   <project path="packages/apps/Music" name="packages_apps_Music" remote="origin" revision="master" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="caf" revision="gingerbread" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="origin" revision="master" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="caf" revision="aosp/gingerbread" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="origin" revision="mecha" />
   <project path="packages/apps/Protips" name="packages_apps_Protips" remote="origin" revision="master"/>
