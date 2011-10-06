@@ -101,7 +101,7 @@
   <project path="external/libffi" name="platform_external_libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" remote="caf" revision="gingerbread" />
   <project path="external/libncurses" name="external_libncurses" remote="origin" revision="master"/>
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="origin" revision="master" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="origin" revision="master" />
   <project path="external/libpcap" name="platform_external_libpcap" />
   <project path="external/libpng" name="external_libpng" remote="origin" revision="master"/>
   <project path="external/libvpx" name="platform/external/libvpx" remote="caf" revision="gingerbread" />
