@@ -184,7 +184,7 @@
   <project path="packages/apps/OMFGB-Launcher" name="OMFGB-Launcher" remote="origin" revision="master"/>
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="origin" revision="master"/>
   <project path="packages/apps/Music" name="packages_apps_Music" remote="origin" revision="master" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="caf" revision="gingerbread" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="origin" revision="master" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="caf" revision="aosp/gingerbread" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="origin" revision="master" />
   <project path="packages/apps/Protips" name="packages_apps_Protips" remote="origin" revision="master"/>
