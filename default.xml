@@ -236,7 +236,7 @@
   <project path="vendor/tmobile/themes/Androidian" name="android_vendor_tmobile_themes_Androidian" remote="cm" revision="gingerbread" />
   <project path="vendor/tmobile/themes/Cyanbread" name="android_vendor_tmobile_themes_Cyanbread" remote="cm" revision="gingerbread" />
   <project path="vendor/omfgb/themes/OMFT" name="Oh-My-Fucking-Theme" remote="origin" revision="master" />
-  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="master" />
+  <project path="vendor/tmobile/products/themes" name="vendor_tmobile_products_themes" remote="origin" revision="master" />
 
 
 
