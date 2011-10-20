@@ -7,7 +7,7 @@
 	   fetch="git://github.com/OMFGB/" />
 
   <remote  name="caf"
-	   fetch="git://codeaurora.org/" />
+	   fetch="https://android.googlesource.com/" />
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
@@ -26,12 +26,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="origin" revision="master"/>
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="caf" revision="aosp/gingerbread" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="caf" revision="aosp/gingerbread" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="caf" revision="gingerbread" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="caf" revision="gingerbread" />
   <project path="bootable/recovery" name="bootable_recovery" remote="origin" revision="master"/>
   <project path="dalvik" name="dalvik" remote="origin" revision="master"/>
   <project path="development" name="platform_development" />
-  <project path="device/common" name="device/common" remote="caf" revision="aosp/gingerbread" />
+  <project path="device/common" name="device/common" remote="caf" revision="gingerbread" />
   <project path="device/htc/common" name="device_htc_common" remote="origin" revision="master"/>
   <project path="device/htc/inc" name="device_htc_inc" remote="origin" revision="master"/>
   <project path="device/htc/mecha" name="device_htc_mecha" remote="origin" revision="master"/>
@@ -49,54 +49,54 @@
   <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="origin" revision="gingerbread"/>
   <project path="device/lge/star-common" name="device_lge_star-common" remote="origin" revision="master"/>
   <project path="device/lge/p999" name="device_lge_p999" remote="origin" revision="gingerbread"/>
-  <project path="device/sample" name="device/sample" remote="caf" revision="aosp/gingerbread" />
+  <project path="device/sample" name="device/sample" remote="caf" revision="gingerbread" />
   <project path="external/apache-http" name="platform_external_apache-http" />
-  <project path="external/astl" name="platform/external/astl" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/astl" name="platform/external/astl" remote="caf" revision="gingerbread" />
   <project path="external/bash" name="external_bash" remote="origin" revision="master"/>
-  <project path="external/bison" name="platform/external/bison" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/blktrace" name="platform/external/blktrace" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/bison" name="platform/external/bison" remote="caf" revision="gingerbread" />
+  <project path="external/blktrace" name="platform/external/blktrace" remote="caf" revision="gingerbread" />
   <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="origin" revision="master"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="aosp/gingerbread"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="gingerbread" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="gingerbread"/>
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="caf" revision="gingerbread" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" remote="caf" revision="gingerbread" />
   <project path="external/busybox" name="external_busybox" remote="origin" revision="master"/>
-  <project path="external/bzip2" name="platform/external/bzip2" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/bzip2" name="platform/external/bzip2" remote="caf" revision="gingerbread" />
   <project path="external/chromium" name="platform/external/chromium" remote="caf" revision="gingerbread" />
   <project path="external/clearsilver" name="external_clearsilver" remote="origin" revision="master"/>
   <project path="external/connectivity" name="external_connectivity" remote="origin" revision="master" />
   <project path="external/dbus" name="platform_external_dbus" />
   <project path="external/dhcpcd" name="platform_external_dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="caf" revision="gingerbread" />
   <project path="external/dropbear" name="external_dropbear" remote="origin" revision="master"/>
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="origin" revision="master"/>
-  <project path="external/easymock" name="platform/external/easymock" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/easymock" name="platform/external/easymock" remote="caf" revision="gingerbread" />
   <project path="external/elfcopy" name="platform_external_elfcopy" />
   <project path="external/elfutils" name="platform_external_elfutils" />
-  <project path="external/embunit" name="platform/external/embunit" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/embunit" name="platform/external/embunit" remote="caf" revision="gingerbread" />
   <project path="external/emma" name="platform_external_emma" />
   <project path="external/esd" name="platform_external_esd" />
   <project path="external/expat" name="platform_external_expat" />
   <project path="external/fdlibm" name="platform_external_fdlibm" />
   <project path="external/flac" name="external_flac" remote="origin" revision="master"/>
   <project path="external/freetype" name="platform_external_freetype" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="caf" revision="gingerbread" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" remote="caf" revision="gingerbread" />
   <project path="external/giflib" name="platform_external_giflib" />
-  <project path="external/grub" name="platform/external/grub" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/gtest" name="platform/external/gtest" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/guava" name="platform/external/guava" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/grub" name="platform/external/grub" remote="caf" revision="gingerbread" />
+  <project path="external/gtest" name="platform/external/gtest" remote="caf" revision="gingerbread" />
+  <project path="external/guava" name="platform/external/guava" remote="caf" revision="gingerbread" />
   <project path="external/hostapd" name="external_hostapd" remote="origin" revision="master"/>
   <project path="external/icu4c" name="platform_external_icu4c" />
-  <project path="external/iproute2" name="platform/external/iproute2" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/iproute2" name="platform/external/iproute2" remote="caf" revision="gingerbread" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="caf" revision="gingerbread" />
   <project path="external/iptables" name="platform_external_iptables" />
   <project path="external/jdiff" name="platform_external_jdiff" />
   <project path="external/jhead" name="platform_external_jhead" />
   <project path="external/jpeg" name="external_jpeg" remote="origin" revision="master"/>
-  <project path="external/jsr305" name="platform/external/jsr305" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/junit" name="platform/external/junit" remote="caf" revision="aosp/gingerbread" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/jsr305" name="platform/external/jsr305" remote="caf" revision="gingerbread" />
+  <project path="external/junit" name="platform/external/junit" remote="caf" revision="gingerbread" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="caf" revision="gingerbread" />
   <project path="external/libffi" name="platform_external_libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" remote="caf" revision="gingerbread" />
   <project path="external/libncurses" name="external_libncurses" remote="origin" revision="master"/>
@@ -119,37 +119,37 @@
   <project path="external/oprofile" name="platform_external_oprofile" />
   <project path="external/ping" name="platform_external_ping" />
   <project path="external/ppp" name="platform_external_ppp" />
-  <project path="external/proguard" name="platform/external/proguard" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/proguard" name="platform/external/proguard" remote="caf" revision="gingerbread" />
   <project path="external/protobuf" name="platform_external_protobuf" />
   <project path="external/qemu" name="android_external_qemu" remote="cm" revision="tools_r7" />
   <project path="external/rsync" name="external_rsync" remote="origin" revision="master"/>
-  <project path="external/quake" name="platform/external/quake" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/quake" name="platform/external/quake" remote="caf" revision="gingerbread" />
   <project path="external/safe-iop" name="platform_external_safe-iop" />
   <project path="external/skia" name="external_skia" remote="origin" revision="master"/>
   <project path="external/sonivox" name="platform_external_sonivox" />
-  <project path="external/speex" name="platform/external/speex" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/speex" name="platform/external/speex" remote="caf" revision="gingerbread" />
   <project path="external/sqlite" name="external_sqlite" remote="origin" revision="master" />
-  <project path="external/srec" name="platform/external/srec" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/srec" name="platform/external/srec" remote="caf" revision="gingerbread" />
   <project path="external/stlport" name="platform/external/stlport" remote="caf" revision="gingerbread" />
   <project path="external/strace" name="external_strace" remote="origin" revision="master"/>
-  <project path="external/svox" name="platform/external/svox" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/svox" name="platform/external/svox" remote="caf" revision="gingerbread" />
   <project path="external/tagsoup" name="platform_external_tagsoup" />
   <project path="external/tcpdump" name="platform_external_tcpdump" />
   <project path="external/tinyxml" name="platform_external_tinyxml" />
-  <project path="external/tremolo" name="platform/external/tremolo" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/tremolo" name="platform/external/tremolo" remote="caf" revision="gingerbread" />
   <project path="external/v8" name="external_v8" remote="origin" revision="master" />
   <project path="external/vim" name="external_vim" remote="origin" revision="master"/>
   <project path="external/webkit" name="external_webkit" remote="origin" revision="master"/>
   <project path="external/wireless-tools" name="external_wireless-tools" remote="origin" revision="master"/>
   <project path="external/wpa_supplicant" name="external_wpa_supplicant" remote="origin" revision="master" />
   <project path="external/wpa_supplicant_6" name="external_wpa_supplicant_6" remote="origin" revision="master" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="caf" revision="aosp/gingerbread" />
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="caf" revision="gingerbread" />
   <project path="external/yaffs2" name="external_yaffs2" remote="origin" revision="master"/>
   <project path="external/zlib" name="external_zlib" remote="origin" revision="master" />
   <project path="frameworks/base" name="frameworks_base" remote="origin" revision="mecha"/>
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="caf" revision="aosp/gingerbread" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="caf" revision="aosp/gingerbread" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="caf" revision="aosp/gingerbread" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" remote="caf" revision="gingerbread" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="caf" revision="gingerbread" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="caf" revision="gingerbread" />
   <project path="hardware/gpsshim" name="hardware_gpsshim" remote="origin" revision="master"/>
   <project path="hardware/libhardware" name="hardware_libhardware" remote="origin" revision="master"/>
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="origin" revision="master"/>
@@ -158,60 +158,60 @@
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="origin" revision="master"/>
   <project path="hardware/ril" name="hardware_ril" remote="origin" revision="master" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="origin" revision="master"/>
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="caf" revision="aosp/gingerbread" />
-  <project path="libcore" name="platform/libcore" remote="caf" revision="aosp/gingerbread" />
-  <project path="ndk" name="platform/ndk" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" remote="caf" revision="aosp/gingerbread" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="caf" revision="gingerbread" />
+  <project path="libcore" name="platform/libcore" remote="caf" revision="gingerbread" />
+  <project path="ndk" name="platform/ndk" remote="caf" revision="gingerbread" />
+  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" remote="caf" revision="gingerbread" />
   <project path="packages/apps/Addons" name="packages_apps_Addons" remote="origin" revision="master"/>
   <project path="packages/apps/AicBootFix" name="packages_apps_AicBootFix" remote="origin" revision="master"/>
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="caf" revision="gingerbread" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="origin" revision="master"/>
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="caf" revision="gingerbread" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="caf" revision="gingerbread" />
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="origin" revision="master"/>
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="caf" revision="gingerbread" />
   <project path="packages/apps/CMScreenshot" name="android_packages_apps_CMScreenshot" remote="cm" revision="gingerbread" />
   <project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="cm" revision="gingerbread"/>
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="caf" revision="gingerbread" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" remote="caf" revision="gingerbread" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="gingerbread" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" remote="caf" revision="gingerbread" />
   <project path="packages/apps/FM" name="packages_apps_FM" remote="origin" revision="gingerbread"/>
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="caf" revision="gingerbread" />
   <project path="packages/apps/Gallery3D" name="packages_apps_Gallery3D" remote="origin" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform_packages_apps_htmlviewer" />
   <project path="packages/apps/OMFGB-Launcher" name="OMFGB-Launcher" remote="origin" revision="master"/>
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="origin" revision="master"/>
   <project path="packages/apps/Music" name="packages_apps_Music" remote="origin" revision="master" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="origin" revision="master" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="caf" revision="gingerbread" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="origin" revision="mecha" />
   <project path="packages/apps/Protips" name="packages_apps_Protips" remote="origin" revision="master"/>
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="caf" revision="gingerbread" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="caf" revision="gingerbread" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="origin" revision="mecha"/>
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="origin" revision="mecha" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" remote="caf" revision="gingerbread" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="caf" revision="gingerbread" />
   <project path="packages/apps/Wallpapers" name="packages_apps_Wallpapers" remote="origin" revision="master"/>
-  <project path="packages/experimental" name="platform/packages/experimental" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/experimental" name="platform/packages/experimental" remote="caf" revision="gingerbread" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="caf" revision="gingerbread" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="caf" revision="gingerbread" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="caf" revision="gingerbread" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="origin" revision="master"/>
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="origin" revision="master"/>
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="caf" revision="aosp/gingerbread"/>
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="caf" revision="gingerbread"/>
   <project path="packages/providers/GoogleContactsProvider" name="platform_packages_providers_googlecontactsprovider" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="origin" revision="master"/>
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="origin" revision="mecha" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" remote="caf" revision="aosp/gingerbread" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="caf" revision="aosp/gingerbread" />
-  <project path="prebuilt" name="platform/prebuilt" remote="caf" revision="aosp/gingerbread" />
-  <project path="sdk" name="platform/sdk" remote="caf" revision="aosp/tools_r7" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" remote="caf" revision="aosp/gingerbread" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="caf" revision="gingerbread" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="caf" revision="gingerbread" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="caf" revision="gingerbread" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" remote="caf" revision="gingerbread" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="caf" revision="gingerbread" />
+  <project path="prebuilt" name="platform/prebuilt" remote="caf" revision="gingerbread" />
+  <project path="sdk" name="platform/sdk" remote="caf" revision="tools_r7" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" remote="caf" revision="gingerbread" />
   <project path="system/core" name="system_core" remote="origin" revision="mecha"/>
   <project path="system/extras" name="system_extras" remote="origin" revision="master"/>
   <project path="system/media" name="android_system_media" remote="super" revision="gingerbread" />
