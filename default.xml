@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="goog"
+          fetch="https://android.googlesource.com" />
+
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
@@ -16,8 +20,8 @@
   <remote  name="themes"
            fetch="git://github.com/tmobile" />
 
- <default  remote="korg"
-	   revision="gingerbread-release"
+ <default  remote="goog"
+	   revision="gingerbread"
 	    />
 
   <project path="build" name="build" remote="origin" revision="master">
