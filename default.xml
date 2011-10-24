@@ -13,8 +13,11 @@
   <remote  name="themes"
            fetch="git://github.com/tmobile" />
 
- <default  remote="korg"
-	   revision="gingerbread-release"
+  <remote  name="goog"
+           fetch="https://android.googlesource.com" />
+
+<default  remote="goog"
+	   revision="gingerbread"
 	    />
 
   <project path="build" name="build" remote="origin" revision="master">
