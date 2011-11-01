@@ -9,7 +9,7 @@
            review="review.source.android.com" />
 		
   <remote  name="origin"
-	   fetch="git@github.com:OMFGB/" />
+	   fetch="git://github.com/OMFGB" />
 
   <remote  name="gh"
            fetch="git@github.com:OMFGB/" />
